@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+<style>
+  table, th, td {
+    border:1px solid black;
+  }
+</style>
 <body>
   <header>
   <h1>Moja firma-naziv moje firme</h1>
@@ -14,6 +19,7 @@
        <li><a href="#oznacavanjeteksta">Oznacavanje teksta</a></li>
        <li><a href="#liste">liste</a></li>
        <li><a href="#kontakt">kontakt</a></li>
+       <li><a href="#tablice">tablice</a></li>
      </ul>
   </header>
 <p>Heading- svih 6 veličina koje imamo kao primjere.</p>
@@ -87,6 +93,100 @@
   <h2 id="kontakt">kontakt</h2>
 <a href="tel:0987654321">Broj mobitela</a><br>
 <a href="mailto:mojmail@mojmail.com">E-mail adresa</a>
+</section>
+<section>
+<h2 id="tablice">tablice</h2>
+  <table style="width:100%">
+    <tbody>
+        <tr>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th>5</th>
+          <th>6</th>
+          <th>7</th>
+        </tr>
+        <tr>
+           <td>ponedjeljak</td>
+           <td>utorak</td>
+           <td>srijeda</td>
+           <td>cetvrtak</td>
+           <td>petak</td>
+           <td>subota</td>
+           <td>nedjelja</td>
+        </tr>
+    </tbody>
+  </table>
+<br>
+<hr>
+<br>
+<table style="width:100%">
+  <tbody>
+    <tr>
+     <th>danas</th>
+     <th>sutra</th>
+     <th>prekosutra</th> 
+    </tr>
+    <tr>
+      <td>danas jesi</td>
+      <td>sutra nisi</td>
+      <td style="width:60%">prekosutra mozda</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<hr>
+<br>
+<table style="width:100%">
+  <tbody>
+    <tr>
+      <th>ja</th>
+      <td>tonka</td>
+      <td>tonka</td>
+    </tr>
+    <tr>
+      <th>ti</th>
+      <td>marina</td>
+      <td>marina</td> 
+    </tr>
+  </tbody>
+</table>
+<br>
+<hr>
+<br>
+<table style="width:100%">
+  <tbody>
+    <tr>
+       <td colspan="3">priroda</td>
+    </tr>
+    <tr>
+       <td>oblak</td>
+       <td>sunce</td>
+       <td>drvo</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<hr>
+<br>
+<table style="width:100%">
+  <tbody>
+    <tr>
+      <td rowspan="3">danas</td>
+      <td>sutra</td>
+      <td>prekosutra</td>
+    </tr>
+    <tr>
+      <td>oblak</td>
+      <td>sunce</td>
+    </tr>
+    <tr>
+      <td>priroda</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
 </section>
 <footer>
   <p style="text-align:center"><small>Moja firma © 2022</small></p>
